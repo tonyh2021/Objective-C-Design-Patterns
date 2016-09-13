@@ -1,13 +1,13 @@
 //
-//  Example2ViewController.h
+//  ProductOne.m
 //  DesignPatterns
 //
 //  Created by hanxt on 16/9/13.
 //  Copyright © 2016年 hanxt. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "ProductOne.h"
 
-@interface Example2ViewController : BaseViewController
+@implementation ProductOne
 
 @end

@@ -1,0 +1,17 @@
+//
+//  Prefix.pch
+//  DesignPatterns
+//
+//  Created by hanxt on 16/9/13.
+//  Copyright © 2016年 hanxt. All rights reserved.
+//
+
+#ifndef Prefix_h
+#define Prefix_h
+
+#define XTRandomColor [UIColor colorWithRed:(CGFloat)arc4random()/UINT32_MAX \
+green:(CGFloat)arc4random()/UINT32_MAX \
+blue:(CGFloat)arc4random()/UINT32_MAX \
+alpha:1.0];
+
+#endif /* Prefix_h */

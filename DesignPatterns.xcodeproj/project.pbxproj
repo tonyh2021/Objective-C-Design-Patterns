@@ -48,6 +48,11 @@
 		897DF8501D881BE00017BAB8 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 897DF84F1D881BE00017BAB8 /* Factory.m */; };
 		897DF8531D881C470017BAB8 /* ProductOneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 897DF8521D881C470017BAB8 /* ProductOneFactory.m */; };
 		897DF8561D881C800017BAB8 /* ProductTwoFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 897DF8551D881C800017BAB8 /* ProductTwoFactory.m */; };
+		89F4E66E1D8E3D8D0090A5E6 /* Example3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F4E66D1D8E3D8D0090A5E6 /* Example3ViewController.m */; };
+		89F4E6711D8E3F920090A5E6 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F4E6701D8E3F920090A5E6 /* Character.m */; };
+		89F4E6741D8E40F40090A5E6 /* CharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F4E6731D8E40F40090A5E6 /* CharacterBuilder.m */; };
+		89F4E6771D8E42AD0090A5E6 /* StandardCharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F4E6761D8E42AD0090A5E6 /* StandardCharacterBuilder.m */; };
+		89F4E67A1D8E44AC0090A5E6 /* ChasingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F4E6791D8E44AC0090A5E6 /* ChasingGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +156,16 @@
 		897DF8521D881C470017BAB8 /* ProductOneFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductOneFactory.m; sourceTree = "<group>"; };
 		897DF8541D881C800017BAB8 /* ProductTwoFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductTwoFactory.h; sourceTree = "<group>"; };
 		897DF8551D881C800017BAB8 /* ProductTwoFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTwoFactory.m; sourceTree = "<group>"; };
+		89F4E66C1D8E3D8D0090A5E6 /* Example3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example3ViewController.h; sourceTree = "<group>"; };
+		89F4E66D1D8E3D8D0090A5E6 /* Example3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example3ViewController.m; sourceTree = "<group>"; };
+		89F4E66F1D8E3F920090A5E6 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		89F4E6701D8E3F920090A5E6 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		89F4E6721D8E40F40090A5E6 /* CharacterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterBuilder.h; sourceTree = "<group>"; };
+		89F4E6731D8E40F40090A5E6 /* CharacterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterBuilder.m; sourceTree = "<group>"; };
+		89F4E6751D8E42AD0090A5E6 /* StandardCharacterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardCharacterBuilder.h; sourceTree = "<group>"; };
+		89F4E6761D8E42AD0090A5E6 /* StandardCharacterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardCharacterBuilder.m; sourceTree = "<group>"; };
+		89F4E6781D8E44AC0090A5E6 /* ChasingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChasingGame.h; sourceTree = "<group>"; };
+		89F4E6791D8E44AC0090A5E6 /* ChasingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChasingGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +218,7 @@
 			children = (
 				897DF7D91D87D8C20017BAB8 /* Factory */,
 				897DF8111D8817FD0017BAB8 /* Prototype */,
+				89F4E66B1D8E3D710090A5E6 /* Builder */,
 				897DF7A61D87D8320017BAB8 /* AppDelegate.h */,
 				897DF7A71D87D8320017BAB8 /* AppDelegate.m */,
 				897DF7A91D87D8320017BAB8 /* ViewController.h */,
@@ -363,6 +379,23 @@
 			path = SimpleFactory;
 			sourceTree = "<group>";
 		};
+		89F4E66B1D8E3D710090A5E6 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				89F4E66C1D8E3D8D0090A5E6 /* Example3ViewController.h */,
+				89F4E66D1D8E3D8D0090A5E6 /* Example3ViewController.m */,
+				89F4E66F1D8E3F920090A5E6 /* Character.h */,
+				89F4E6701D8E3F920090A5E6 /* Character.m */,
+				89F4E6721D8E40F40090A5E6 /* CharacterBuilder.h */,
+				89F4E6731D8E40F40090A5E6 /* CharacterBuilder.m */,
+				89F4E6751D8E42AD0090A5E6 /* StandardCharacterBuilder.h */,
+				89F4E6761D8E42AD0090A5E6 /* StandardCharacterBuilder.m */,
+				89F4E6781D8E44AC0090A5E6 /* ChasingGame.h */,
+				89F4E6791D8E44AC0090A5E6 /* ChasingGame.m */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -498,6 +531,7 @@
 				897DF7FB1D87DFA00017BAB8 /* SUV.m in Sources */,
 				897DF8441D88198F0017BAB8 /* SimpleFactory.m in Sources */,
 				897DF83A1D88188F0017BAB8 /* MJPropertyKey.m in Sources */,
+				89F4E6711D8E3F920090A5E6 /* Character.m in Sources */,
 				897DF83E1D88188F0017BAB8 /* NSObject+MJKeyValue.m in Sources */,
 				897DF7FA1D87DFA00017BAB8 /* Hatchback.m in Sources */,
 				897DF7EF1D87DBAD0017BAB8 /* BaseViewController.m in Sources */,
@@ -515,13 +549,16 @@
 				897DF8371D88188F0017BAB8 /* MJExtensionConst.m in Sources */,
 				897DF7A81D87D8320017BAB8 /* AppDelegate.m in Sources */,
 				897DF83D1D88188F0017BAB8 /* NSObject+MJCoding.m in Sources */,
+				89F4E66E1D8E3D8D0090A5E6 /* Example3ViewController.m in Sources */,
 				897DF8501D881BE00017BAB8 /* Factory.m in Sources */,
 				897DF8101D8812D50017BAB8 /* Example2ViewController.m in Sources */,
+				89F4E6771D8E42AD0090A5E6 /* StandardCharacterBuilder.m in Sources */,
 				897DF8071D87E0D90017BAB8 /* FordSUV.m in Sources */,
 				897DF7A51D87D8320017BAB8 /* main.m in Sources */,
 				897DF83F1D88188F0017BAB8 /* NSObject+MJProperty.m in Sources */,
 				897DF8471D881A0E0017BAB8 /* Product.m in Sources */,
 				897DF8391D88188F0017BAB8 /* MJProperty.m in Sources */,
+				89F4E67A1D8E44AC0090A5E6 /* ChasingGame.m in Sources */,
 				897DF8041D87E0C60017BAB8 /* ToyotaHatchback.m in Sources */,
 				897DF81D1D8818160017BAB8 /* Example1ViewController.m in Sources */,
 				897DF80A1D87E0EC0017BAB8 /* ToyotaSUV.m in Sources */,
@@ -529,6 +566,7 @@
 				897DF83C1D88188F0017BAB8 /* NSObject+MJClass.m in Sources */,
 				897DF83B1D88188F0017BAB8 /* MJPropertyType.m in Sources */,
 				897DF81A1D8817FD0017BAB8 /* Student.m in Sources */,
+				89F4E6741D8E40F40090A5E6 /* CharacterBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

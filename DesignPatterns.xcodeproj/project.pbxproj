@@ -53,6 +53,9 @@
 		89F4E6741D8E40F40090A5E6 /* CharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F4E6731D8E40F40090A5E6 /* CharacterBuilder.m */; };
 		89F4E6771D8E42AD0090A5E6 /* StandardCharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F4E6761D8E42AD0090A5E6 /* StandardCharacterBuilder.m */; };
 		89F4E67A1D8E44AC0090A5E6 /* ChasingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F4E6791D8E44AC0090A5E6 /* ChasingGame.m */; };
+		89F4E6811D8E79B00090A5E6 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F4E6801D8E79B00090A5E6 /* Singleton.m */; };
+		89F4E6851D8E7D720090A5E6 /* Example4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F4E6841D8E7D720090A5E6 /* Example4ViewController.m */; };
+		89F4E6881D8E7DB70090A5E6 /* SmartSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F4E6871D8E7DB70090A5E6 /* SmartSingleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -166,6 +169,13 @@
 		89F4E6761D8E42AD0090A5E6 /* StandardCharacterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardCharacterBuilder.m; sourceTree = "<group>"; };
 		89F4E6781D8E44AC0090A5E6 /* ChasingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChasingGame.h; sourceTree = "<group>"; };
 		89F4E6791D8E44AC0090A5E6 /* ChasingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChasingGame.m; sourceTree = "<group>"; };
+		89F4E67F1D8E79B00090A5E6 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		89F4E6801D8E79B00090A5E6 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		89F4E6821D8E7CFC0090A5E6 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		89F4E6831D8E7D720090A5E6 /* Example4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example4ViewController.h; sourceTree = "<group>"; };
+		89F4E6841D8E7D720090A5E6 /* Example4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example4ViewController.m; sourceTree = "<group>"; };
+		89F4E6861D8E7DB70090A5E6 /* SmartSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartSingleton.h; sourceTree = "<group>"; };
+		89F4E6871D8E7DB70090A5E6 /* SmartSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartSingleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +226,7 @@
 		897DF7A21D87D8320017BAB8 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				89F4E67B1D8E76180090A5E6 /* Singleton */,
 				897DF7D91D87D8C20017BAB8 /* Factory */,
 				897DF8111D8817FD0017BAB8 /* Prototype */,
 				89F4E66B1D8E3D710090A5E6 /* Builder */,
@@ -396,6 +407,20 @@
 			path = Builder;
 			sourceTree = "<group>";
 		};
+		89F4E67B1D8E76180090A5E6 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				89F4E67F1D8E79B00090A5E6 /* Singleton.h */,
+				89F4E6801D8E79B00090A5E6 /* Singleton.m */,
+				89F4E6821D8E7CFC0090A5E6 /* Macro.h */,
+				89F4E6831D8E7D720090A5E6 /* Example4ViewController.h */,
+				89F4E6841D8E7D720090A5E6 /* Example4ViewController.m */,
+				89F4E6861D8E7DB70090A5E6 /* SmartSingleton.h */,
+				89F4E6871D8E7DB70090A5E6 /* SmartSingleton.m */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -543,12 +568,14 @@
 				897DF7E31D87D9280017BAB8 /* ToyotaBrandingFactory.m in Sources */,
 				897DF84A1D881A4F0017BAB8 /* ProductOne.m in Sources */,
 				897DF7E21D87D9280017BAB8 /* FordBrandingFactory.m in Sources */,
+				89F4E6881D8E7DB70090A5E6 /* SmartSingleton.m in Sources */,
 				897DF8011D87E0AA0017BAB8 /* FordHatchback.m in Sources */,
 				897DF7E11D87D9280017BAB8 /* BrandingFactory.m in Sources */,
 				897DF8181D8817FD0017BAB8 /* BaseCopyObject.m in Sources */,
 				897DF8371D88188F0017BAB8 /* MJExtensionConst.m in Sources */,
 				897DF7A81D87D8320017BAB8 /* AppDelegate.m in Sources */,
 				897DF83D1D88188F0017BAB8 /* NSObject+MJCoding.m in Sources */,
+				89F4E6851D8E7D720090A5E6 /* Example4ViewController.m in Sources */,
 				89F4E66E1D8E3D8D0090A5E6 /* Example3ViewController.m in Sources */,
 				897DF8501D881BE00017BAB8 /* Factory.m in Sources */,
 				897DF8101D8812D50017BAB8 /* Example2ViewController.m in Sources */,
@@ -565,6 +592,7 @@
 				897DF8401D88188F0017BAB8 /* NSString+MJExtension.m in Sources */,
 				897DF83C1D88188F0017BAB8 /* NSObject+MJClass.m in Sources */,
 				897DF83B1D88188F0017BAB8 /* MJPropertyType.m in Sources */,
+				89F4E6811D8E79B00090A5E6 /* Singleton.m in Sources */,
 				897DF81A1D8817FD0017BAB8 /* Student.m in Sources */,
 				89F4E6741D8E40F40090A5E6 /* CharacterBuilder.m in Sources */,
 			);

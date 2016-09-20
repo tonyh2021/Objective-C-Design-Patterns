@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		895C0FB61D8FDF220030EC05 /* Charger.m in Sources */ = {isa = PBXBuildFile; fileRef = 895C0FAA1D8FDF220030EC05 /* Charger.m */; };
+		895C0FB71D8FDF220030EC05 /* LightningChargerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 895C0FAC1D8FDF220030EC05 /* LightningChargerAdapter.m */; };
+		895C0FB81D8FDF220030EC05 /* MicroUSBAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 895C0FAF1D8FDF220030EC05 /* MicroUSBAdapter.m */; };
+		895C0FB91D8FDF220030EC05 /* Example5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 895C0FB21D8FDF220030EC05 /* Example5ViewController.m */; };
 		897DF7A51D87D8320017BAB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 897DF7A41D87D8320017BAB8 /* main.m */; };
 		897DF7A81D87D8320017BAB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 897DF7A71D87D8320017BAB8 /* AppDelegate.m */; };
 		897DF7AB1D87D8320017BAB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 897DF7AA1D87D8320017BAB8 /* ViewController.m */; };
@@ -76,6 +80,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		895C0FA91D8FDF220030EC05 /* Charger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Charger.h; sourceTree = "<group>"; };
+		895C0FAA1D8FDF220030EC05 /* Charger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Charger.m; sourceTree = "<group>"; };
+		895C0FAB1D8FDF220030EC05 /* LightningChargerAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightningChargerAdapter.h; sourceTree = "<group>"; };
+		895C0FAC1D8FDF220030EC05 /* LightningChargerAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightningChargerAdapter.m; sourceTree = "<group>"; };
+		895C0FAD1D8FDF220030EC05 /* LightningChargerAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightningChargerAdapterProtocol.h; sourceTree = "<group>"; };
+		895C0FAE1D8FDF220030EC05 /* MicroUSBAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicroUSBAdapter.h; sourceTree = "<group>"; };
+		895C0FAF1D8FDF220030EC05 /* MicroUSBAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicroUSBAdapter.m; sourceTree = "<group>"; };
+		895C0FB11D8FDF220030EC05 /* Example5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example5ViewController.h; sourceTree = "<group>"; };
+		895C0FB21D8FDF220030EC05 /* Example5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example5ViewController.m; sourceTree = "<group>"; };
 		897DF7A01D87D8320017BAB8 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		897DF7A41D87D8320017BAB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		897DF7A61D87D8320017BAB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -203,6 +216,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		895C0F911D8F826A0030EC05 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				895C0FA81D8FDF220030EC05 /* Charger */,
+				895C0FB11D8FDF220030EC05 /* Example5ViewController.h */,
+				895C0FB21D8FDF220030EC05 /* Example5ViewController.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		895C0FA81D8FDF220030EC05 /* Charger */ = {
+			isa = PBXGroup;
+			children = (
+				895C0FA91D8FDF220030EC05 /* Charger.h */,
+				895C0FAA1D8FDF220030EC05 /* Charger.m */,
+				895C0FAB1D8FDF220030EC05 /* LightningChargerAdapter.h */,
+				895C0FAC1D8FDF220030EC05 /* LightningChargerAdapter.m */,
+				895C0FAD1D8FDF220030EC05 /* LightningChargerAdapterProtocol.h */,
+				895C0FAE1D8FDF220030EC05 /* MicroUSBAdapter.h */,
+				895C0FAF1D8FDF220030EC05 /* MicroUSBAdapter.m */,
+			);
+			path = Charger;
+			sourceTree = "<group>";
+		};
 		897DF7971D87D8320017BAB8 = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +263,7 @@
 		897DF7A21D87D8320017BAB8 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				895C0F911D8F826A0030EC05 /* Adapter */,
 				89F4E67B1D8E76180090A5E6 /* Singleton */,
 				897DF7D91D87D8C20017BAB8 /* Factory */,
 				897DF8111D8817FD0017BAB8 /* Prototype */,
@@ -554,12 +592,14 @@
 			files = (
 				897DF8561D881C800017BAB8 /* ProductTwoFactory.m in Sources */,
 				897DF7FB1D87DFA00017BAB8 /* SUV.m in Sources */,
+				895C0FB91D8FDF220030EC05 /* Example5ViewController.m in Sources */,
 				897DF8441D88198F0017BAB8 /* SimpleFactory.m in Sources */,
 				897DF83A1D88188F0017BAB8 /* MJPropertyKey.m in Sources */,
 				89F4E6711D8E3F920090A5E6 /* Character.m in Sources */,
 				897DF83E1D88188F0017BAB8 /* NSObject+MJKeyValue.m in Sources */,
 				897DF7FA1D87DFA00017BAB8 /* Hatchback.m in Sources */,
 				897DF7EF1D87DBAD0017BAB8 /* BaseViewController.m in Sources */,
+				895C0FB61D8FDF220030EC05 /* Charger.m in Sources */,
 				897DF8381D88188F0017BAB8 /* MJFoundation.m in Sources */,
 				897DF7AB1D87D8320017BAB8 /* ViewController.m in Sources */,
 				897DF84D1D881A5C0017BAB8 /* ProductTwo.m in Sources */,
@@ -590,7 +630,9 @@
 				897DF81D1D8818160017BAB8 /* Example1ViewController.m in Sources */,
 				897DF80A1D87E0EC0017BAB8 /* ToyotaSUV.m in Sources */,
 				897DF8401D88188F0017BAB8 /* NSString+MJExtension.m in Sources */,
+				895C0FB81D8FDF220030EC05 /* MicroUSBAdapter.m in Sources */,
 				897DF83C1D88188F0017BAB8 /* NSObject+MJClass.m in Sources */,
+				895C0FB71D8FDF220030EC05 /* LightningChargerAdapter.m in Sources */,
 				897DF83B1D88188F0017BAB8 /* MJPropertyType.m in Sources */,
 				89F4E6811D8E79B00090A5E6 /* Singleton.m in Sources */,
 				897DF81A1D8817FD0017BAB8 /* Student.m in Sources */,

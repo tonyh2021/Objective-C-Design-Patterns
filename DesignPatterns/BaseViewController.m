@@ -18,6 +18,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = XTRandomColor;
     self.navigationItem.title = NSStringFromClass([self class]);
+    self.automaticallyAdjustsScrollViewInsets = NO;
 }
 
 @end
